@@ -1,32 +1,45 @@
-table {
-    width: 500px;
-    height: 300px;
-}
-td {
-    font-weight: bold;
+h1, h2, h3 {
     text-align: center;
 }
-th {
-    font-weight: normal;
+h3 {
+    font-size: 16px;
 }
-h2 {
-    font-style: italic;
-    font-size: 40px;
-    font-weight: normal;
-    text-decoration: line-through;
-}
-h1 {
-    font-size: 50px;
-    text-align: center;
-    text-decoration: overline;
+ul i {
     color: red;
 }
-p {
-    font: bold italic 40px/50px Arial;
-    text-indent: 30px;
-    text-decoration: underline;
+p i {
+    color: green;
 }
-a {
-    text-decoration: none;
-    font-size: 20px;
+p b i {
+    color: red;
+}
+li > b {
+    color: red;
+}
+.odd {
+    color: red;
+}
+.eve {
+    color: green;
+}
+.eee {
+    color: red;
+}
+.xxx {
+    font-size: 30px;
+}
+.red {
+    color: red;
+}
+.green {
+    color: green;
+}
+.blue {
+    color: cyan;
+}
+.first {
+    color: red;
+}
+.second {
+    color: green;
 }
